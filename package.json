@@ -1,0 +1,28 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "learning docker",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aabid26/WebApp_NodeJs_Docker.git"
+  },
+  "author": "aabid zeeshan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aabid26/WebApp_NodeJs_Docker/issues"
+  },
+  "homepage": "https://github.com/Aabid26/WebApp_NodeJs_Docker#readme",
+  "dependencies": {
+    "devenv": "^1.0.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
